@@ -9,8 +9,17 @@ Sistema de mercado desenvolvido em PHP na versão 7.4.3 e banco de dados Postgre
 - Foi utilizado a biblioteca [FontAwesome](https://fontawesome.com/) para uso de ícones.
 
 ## Requisitos
-> -- `Cadastro de produtos`
-> -- `Cadastro de tipos de produtos`
-> -- `Cadastro de itens de vendas com dedução do estoque e validação quando o estoque insuficiente`
+> -- `Cadastro de produtos`  
+> -- `Cadastro de tipos de produtos`  
+> -- `Cadastro de itens de vendas com dedução do estoque e validação quando o estoque insuficiente`  
 
+## CONFIGURAÇÕES
+> No arquivo `DBConnection.php` alterar os dados de conexão com o banco para os seus dados locais.  
+> As variáveis são:  
+- `$dbuser`
+- `dbpass`
+# 
+- Criar o banco de dados com o seguinte comando: 
+- `create database mercado_express;`
+- 
 *Desenvolvedor: Felipe Rosa*
